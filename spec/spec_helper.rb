@@ -8,6 +8,6 @@ end
 
 require 'rack/test'
 require 'webmock/rspec'
-require 'omniauth-cas'
+require 'omniauth-iu-cas'
 
 OmniAuth.config.logger = Logger.new( '/dev/null' )
